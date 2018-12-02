@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "size" : "554x554",
+      "idiom" : "universal",
+      "filename" : "launch-icon@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "369x369",
+      "idiom" : "universal",
+      "filename" : "launch-icon@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "184x184",
+      "idiom" : "universal",
+      "filename" : "launch-icon@1x.png",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcresize"
+  }
+}
