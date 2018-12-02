@@ -12,6 +12,7 @@
 		4C1D0E9A21B23C5700402257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D0E9821B23C5700402257 /* Main.storyboard */; };
 		4C1D0E9C21B23C5900402257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D0E9B21B23C5900402257 /* Assets.xcassets */; };
 		4C1D0E9F21B23C5900402257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D0E9D21B23C5900402257 /* LaunchScreen.storyboard */; };
+		4CED981921B3B83000D59DDC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED981821B3B83000D59DDC /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		4C1D0E9B21B23C5900402257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1D0E9E21B23C5900402257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C1D0EA021B23C5900402257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CED981621B3B74D00D59DDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CED981821B3B83000D59DDC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		4C1D0E8821B23C5700402257 = {
 			isa = PBXGroup;
 			children = (
+				4CED981621B3B74D00D59DDC /* README.md */,
 				4C1D0E9321B23C5700402257 /* 'Bout Time */,
 				4C1D0E9221B23C5700402257 /* Products */,
 			);
@@ -54,6 +58,7 @@
 		4C1D0E9321B23C5700402257 /* 'Bout Time */ = {
 			isa = PBXGroup;
 			children = (
+				4CED981821B3B83000D59DDC /* Event.swift */,
 				4C1D0E9421B23C5700402257 /* AppDelegate.swift */,
 				4C1D0E9621B23C5700402257 /* ViewController.swift */,
 				4C1D0E9821B23C5700402257 /* Main.storyboard */,
@@ -136,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1D0E9721B23C5700402257 /* ViewController.swift in Sources */,
+				4CED981921B3B83000D59DDC /* Event.swift in Sources */,
 				4C1D0E9521B23C5700402257 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
