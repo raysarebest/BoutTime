@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct Event: Decodable{
+struct Event: Decodable, Hashable{
     let title: String
     let moment: Date
     let infoLink: URL
