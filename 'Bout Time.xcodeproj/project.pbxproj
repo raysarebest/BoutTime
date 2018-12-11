@@ -12,6 +12,8 @@
 		4C1D0E9A21B23C5700402257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D0E9821B23C5700402257 /* Main.storyboard */; };
 		4C1D0E9C21B23C5900402257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D0E9B21B23C5900402257 /* Assets.xcassets */; };
 		4C1D0E9F21B23C5900402257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D0E9D21B23C5900402257 /* LaunchScreen.storyboard */; };
+		4C24489221BF41C600B05645 /* QuizTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24489121BF41C600B05645 /* QuizTimer.swift */; };
+		4C41A42E21B9B717003B0A84 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C41A42D21B9B717003B0A84 /* Quiz.swift */; };
 		4CED981921B3B83000D59DDC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED981821B3B83000D59DDC /* Event.swift */; };
 		4CED981B21B3CD2300D59DDC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED981A21B3CD2300D59DDC /* Question.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		4C1D0E9B21B23C5900402257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1D0E9E21B23C5900402257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C1D0EA021B23C5900402257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C24489121BF41C600B05645 /* QuizTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTimer.swift; sourceTree = "<group>"; };
+		4C41A42D21B9B717003B0A84 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		4CED981621B3B74D00D59DDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CED981821B3B83000D59DDC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4CED981A21B3CD2300D59DDC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			children = (
 				4CED981821B3B83000D59DDC /* Event.swift */,
 				4CED981A21B3CD2300D59DDC /* Question.swift */,
+				4C41A42D21B9B717003B0A84 /* Quiz.swift */,
+				4C24489121BF41C600B05645 /* QuizTimer.swift */,
 				4C1D0E9421B23C5700402257 /* AppDelegate.swift */,
 				4C1D0E9621B23C5700402257 /* ViewController.swift */,
 				4C1D0E9821B23C5700402257 /* Main.storyboard */,
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1D0E9721B23C5700402257 /* ViewController.swift in Sources */,
+				4C41A42E21B9B717003B0A84 /* Quiz.swift in Sources */,
 				4CED981B21B3CD2300D59DDC /* Question.swift in Sources */,
 				4CED981921B3B83000D59DDC /* Event.swift in Sources */,
+				4C24489221BF41C600B05645 /* QuizTimer.swift in Sources */,
 				4C1D0E9521B23C5700402257 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,9 +301,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K3ZLWH83BT;
+				DEVELOPMENT_TEAM = TCUV5F57FP;
 				INFOPLIST_FILE = "'Bout Time/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,9 +319,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K3ZLWH83BT;
+				DEVELOPMENT_TEAM = TCUV5F57FP;
 				INFOPLIST_FILE = "'Bout Time/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

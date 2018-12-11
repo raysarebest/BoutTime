@@ -9,7 +9,7 @@
 import Foundation
 
 struct Question{
-    var events = [Event](){
+    private(set) var events = [Event](){
         didSet{
             let uniques = Set(events)
             if uniques.count != events.count{
@@ -23,23 +23,37 @@ struct Question{
         }
     }
 
-    init(events: [Event]){
-        for event in events{
-            add(event)
-        }
+    init<Collection: Sequence>(events: Collection) where Collection.Element == Event{
+        update(events: Set(events))
     }
 
     init(events: Set<Event>){
         update(events: events)
     }
 
-    mutating func add(_ event: Event) -> Void{
-        var uniques = Set(events)
-        uniques.insert(event)
-        update(events: uniques)
-    }
-
     private mutating func update(events: Set<Event>) -> Void{
         self.events = Array(events).shuffled()
+    }
+
+    mutating func reorder(index: Int, direction: ReorderDirection) -> Void{
+        func isWithinValidRange(_ possibleIndex: Int) -> Bool{
+            return 0..<events.count ~= index
+        }
+        guard isWithinValidRange(index) && isWithinValidRange(index + direction.rawValue) else{
+            return
+        }
+        events.swapAt(index, index + direction.rawValue)
+    }
+
+    mutating func reorder(_ event: Event, direction: ReorderDirection) -> Void{
+        guard let index = events.firstIndex(of: event) else{
+            return
+        }
+        reorder(index: index, direction: direction)
+    }
+
+    enum ReorderDirection: Int{
+        case up = -1
+        case down = 1
     }
 }
