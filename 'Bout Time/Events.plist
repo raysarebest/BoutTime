@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>The Pepsi/Coke cola wars are launched into space</string>
+		<key>moment</key>
+		<date>1985-07-30T21:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/STS-51-F</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>China declares martial law due to the Tiananmen Square protests</string>
+		<key>moment</key>
+		<date>1989-05-21T15:27:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hypodermic needles begin washing up on New York shores</string>
+		<key>moment</key>
+		<date>1988-07-06T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Syringe_tide</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Bernie Goetz shoots 4 people on a New York City subway</string>
+		<key>moment</key>
+		<date>1984-12-22T18:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1984_New_York_City_Subway_shooting</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Len Bias dies of a crack overdose</string>
+		<key>moment</key>
+		<date>1986-06-19T10:32:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Len_Bias</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HIV, the cause of AIDS, is identified</string>
+		<key>moment</key>
+		<date>1983-05-20T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/HIV/AIDS</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The New York Times reports on homeless Vietnam veterans</string>
+		<key>moment</key>
+		<date>1987-12-30T12:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.nytimes.com/1987/12/30/us/nation-s-homeless-veterans-battle-a-new-foe-defeatism.html</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>US foreign debts first total $1 trillion</string>
+		<key>moment</key>
+		<date>1981-10-22T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.politico.com/story/2017/10/22/us-national-debt-tops-1-trillion-oct-22-1981-243966</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Inspired by a heavy metal song, John McCollum commits suicide</string>
+		<key>moment</key>
+		<date>1984-10-27T04:00:00Z</date>
+		<key>infoLink</key>
+		<string>http://ultimateclassicrock.com/ozzy-osbourne-fan-suicide/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sally Ride becomes the US&apos;s first female astronaut in space</string>
+		<key>moment</key>
+		<date>1983-06-18T11:33:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Sally_Ride</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Pat Sajak debuts as host of Wheel of Fortune</string>
+		<key>moment</key>
+		<date>1981-12-28T15:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Wheel_of_Fortune_(U.S._game_show)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Soviet forces overthrow Afghanistan&apos;s government</string>
+		<key>moment</key>
+		<date>1979-12-27T14:45:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Soviet–Afghan_War</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ayatollah Ruhollah Khomeini returns to Iran</string>
+		<key>moment</key>
+		<date>1979-02-01T05:57:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Ruhollah_Khomeini%27s_return_to_Iran</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Air France flight 139 is hijacked by terrorists</string>
+		<key>moment</key>
+		<date>1976-06-27T10:34:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Operation_Entebbe</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Palestine declares its independence</string>
+		<key>moment</key>
+		<date>1988-11-15T14:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Palestinian_Declaration_of_Independence</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ronald Reagan is first elected President of the United States</string>
+		<key>moment</key>
+		<date>1980-11-05T01:15:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1980_United_States_presidential_election</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Menachem Begin is sworn in as Prime Minister of Israel</string>
+		<key>moment</key>
+		<date>1977-06-20T10:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Menachem_Begin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Patti Smith records the first punk rock song</string>
+		<key>moment</key>
+		<date>1974-06-05T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Punk_rock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Richard Nixon is first elected President of the United States</string>
+		<key>moment</key>
+		<date>1968-11-06T03:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1968_United_States_presidential_election</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Richie Havens takes the stage to open Woodstock</string>
+		<key>moment</key>
+		<date>1969-08-15T21:07:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Woodstock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Apollo Lunar Module Eagle lands on the moon</string>
+		<key>moment</key>
+		<date>1969-07-20T20:18:04Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Apollo_11</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Richard Nixon is elected to the US Senate</string>
+		<key>moment</key>
+		<date>1950-11-08T03:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1950_United_States_Senate_election_in_California</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Ho Chi Minh Trail is first bombed</string>
+		<key>moment</key>
+		<date>1965-03-02T05:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Ho_Chi_Minh_trail</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The first birth control pill goes on sale in the US</string>
+		<key>moment</key>
+		<date>1960-06-23T04:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Birth_control</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>John F. Kennedy is assassinated</string>
+		<key>moment</key>
+		<date>1963-11-22T18:30:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>John Profumo resigns after a sex scandal</string>
+		<key>moment</key>
+		<date>1963-06-05T12:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Profumo_affair</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Malcolm X is assassinated</string>
+		<key>moment</key>
+		<date>1965-02-19T20:30:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Malcolm_X</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Saint Paul VI is elected pope</string>
+		<key>moment</key>
+		<date>1963-06-21T12:22:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Pope_Paul_VI</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sonny Liston beats Floyd Patterson for the world heavyweight boxing title</string>
+		<key>moment</key>
+		<date>1962-09-26T01:32:06Z</date>
+		<key>infoLink</key>
+		<string>http://boxrec.com/media/index.php/Floyd_Patterson_vs._Sonny_Liston_(1st_meeting)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>John Glenn is first launched to orbit the Earth</string>
+		<key>moment</key>
+		<date>1962-02-20T14:47:39Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/John_Glenn</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Amid racist skirmishes, James Meredith enrolls in Ole Miss</string>
+		<key>moment</key>
+		<date>1962-10-01T00:30:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Ole_Miss_riot_of_1962</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Beatles arrive in New York for their first American tour</string>
+		<key>moment</key>
+		<date>1964-02-07T18:20:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Beatlemania</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Lawrence of Arabia premieres</string>
+		<key>moment</key>
+		<date>1962-12-10T18:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The CIA assists in the invasion of the Bay of Pigs</string>
+		<key>moment</key>
+		<date>1961-04-16T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Berlin Wall is constructed</string>
+		<key>moment</key>
+		<date>1961-08-12T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Berlin_Wall</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Bob Dylan signs with Columbia Records</string>
+		<key>moment</key>
+		<date>1961-10-26T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Bob_Dylan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Stranger in a Strange Land is published</string>
+		<key>moment</key>
+		<date>1961-06-01T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Adolf Eichmann is captured by the Mossad</string>
+		<key>moment</key>
+		<date>1960-05-11T20:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Adolf_Eichmann</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ernest Hemingway commits suicide</string>
+		<key>moment</key>
+		<date>1961-07-02T08:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Ernest_Hemingway</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Belgium declares its Congo territory as independent</string>
+		<key>moment</key>
+		<date>1960-06-30T10:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Congo_Crisis</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Alfred Hitchcock&apos;s &quot;Psycho&quot; premieres</string>
+		<key>moment</key>
+		<date>1960-06-16T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Psycho_(1960_film)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Chubby Checker performs &quot;The Twist&quot; on Dick Clark&apos;s American Bandstand</string>
+		<key>moment</key>
+		<date>1960-08-07T00:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Chubby_Checker</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>John F. Kennedy is elected President of the United States</string>
+		<key>moment</key>
+		<date>1960-11-09T11:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1960_United_States_presidential_election</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dick Clark testifies before US Congress about payola</string>
+		<key>moment</key>
+		<date>1960-04-29T13:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Payola</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The CIA rescues Syngman Rhee</string>
+		<key>moment</key>
+		<date>1960-04-27T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Syngman_Rhee</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Soviet Air Defense shoots down an American U-2 spyplane</string>
+		<key>moment</key>
+		<date>1960-05-01T07:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1960_U-2_incident</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ford discontinues the Edsel</string>
+		<key>moment</key>
+		<date>1959-11-19T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Edsel</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fidel Castro is sworn in as Prime Minister of Cuba</string>
+		<key>moment</key>
+		<date>1959-02-16T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Fidel_Castro</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Georgia Gibbs sings &quot;The Hula Hoop Song&quot; on the Ed Sullivan Show</string>
+		<key>moment</key>
+		<date>1958-09-06T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Hula_hoop</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Mafia holds their Apalachin meeting</string>
+		<key>moment</key>
+		<date>1957-11-14T18:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Apalachin_meeting</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Jupiter AM-18 is launched, manned by 2 monkeys</string>
+		<key>moment</key>
+		<date>1959-05-28T06:39:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Monkeys_and_apes_in_space</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ben-Hur premieres in New York City</string>
+		<key>moment</key>
+		<date>1959-11-19T01:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Buddy Holly dies in a plane crash</string>
+		<key>moment</key>
+		<date>1959-02-03T07:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Buddy_Holly</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Thalidomide is first suggested to cause birth defects</string>
+		<key>moment</key>
+		<date>1961-12-16T02:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Thalidomide</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Charles Starkweather is executed</string>
+		<key>moment</key>
+		<date>1959-06-25T05:04:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Charles_Starkweather</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Dodgers and Giants play their first game as California teams</string>
+		<key>moment</key>
+		<date>1958-04-15T21:05:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.baseball-reference.com/boxes/SFN/SFN195804150.shtml</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Charles de Gaulle is inaugurated as President of France</string>
+		<key>moment</key>
+		<date>1959-01-08T09:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Charles_de_Gaulle</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>US Marines are deployed in the Lebanon crisis</string>
+		<key>moment</key>
+		<date>1958-07-15T10:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1958_Lebanon_crisis</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Bridge on the River Kwai premiers in the UK</string>
+		<key>moment</key>
+		<date>1957-10-02T12:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/The_Bridge_on_the_River_Kwai</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Zhou Enlai survives an assassination attempt</string>
+		<key>moment</key>
+		<date>1955-04-11T09:25:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Kashmir_Princess</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sputnik 1 is launched</string>
+		<key>moment</key>
+		<date>1957-10-04T19:28:34Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Sputnik_1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Jack Kerouac publishes &quot;On the Road&quot;</string>
+		<key>moment</key>
+		<date>1957-09-05T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/On_the_Road</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mickey Mantle makes his MLB debut</string>
+		<key>moment</key>
+		<date>1951-04-17T18:05:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Mickey_Mantle</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Boris Pasternak wins the Nobel Prize for Literature</string>
+		<key>moment</key>
+		<date>1958-10-23T07:33:38Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Boris_Pasternak</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Arkansas National Guard stops the Little Rock Nine from entering Central High School</string>
+		<key>moment</key>
+		<date>1957-09-04T13:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Little_Rock_Nine</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Israel invades Egypt to begin the Suez Crisis</string>
+		<key>moment</key>
+		<date>1956-10-29T11:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Suez_Crisis</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Peyton Place is published</string>
+		<key>moment</key>
+		<date>1956-09-24T14:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Peyton_Place_(novel)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Grace Kelly marries Prince Rainier III and becomes Princess of Monaco</string>
+		<key>moment</key>
+		<date>1956-04-18T09:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Grace_Kelly</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Nikita Khrushchev gives his &quot;Secret Speech&quot;</string>
+		<key>moment</key>
+		<date>1956-02-25T07:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Montgomery, Alabama&apos;s public transportation system was legally integrated</string>
+		<key>moment</key>
+		<date>1956-12-21T12:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Montgomery_bus_boycott</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Budapest&apos;s statue of Stalin is toppled</string>
+		<key>moment</key>
+		<date>1956-10-23T19:30:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Brigitte Bardot stars in &quot;And God Created Woman&quot;</string>
+		<key>moment</key>
+		<date>1956-11-28T12:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/And_God_Created_Woman_(1956_film)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Disneyland opens in Anaheim, California</string>
+		<key>moment</key>
+		<date>1955-07-17T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Disneyland</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Elvis Presley signs with RCA Records</string>
+		<key>moment</key>
+		<date>1955-11-20T18:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.graceland.com/1954-1957</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>&quot;Peter Pan&quot; airs on NBC, the first play presented on color TV</string>
+		<key>moment</key>
+		<date>1955-03-08T00:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Peter_Pan_(1954_musical)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Davy Crockett premieres on ABC</string>
+		<key>moment</key>
+		<date>1954-12-16T00:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Davy_Crockett_(miniseries)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Brooklyn Dodgers win the World Series</string>
+		<key>moment</key>
+		<date>1955-10-04T19:44:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/1955_World_Series</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>James Dean dies in a car accident</string>
+		<key>moment</key>
+		<date>1955-09-30T00:45:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/James_Dean</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Albert Einstein dies in Princeton Hospital</string>
+		<key>moment</key>
+		<date>1955-04-18T07:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Albert_Einstein</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Bill Haley &amp; His Comets release &quot;Rock Around the Clock&quot;</string>
+		<key>moment</key>
+		<date>1954-05-20T14:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Rock_Around_the_Clock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Điện Biên Phủ is overrun and falls to the Viet Minh</string>
+		<key>moment</key>
+		<date>1954-05-07T11:20:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DuPont registers the trademark for Mylar, a polyester also known as Dracon</string>
+		<key>moment</key>
+		<date>1952-06-10T14:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Polyethylene_terephthalate</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Arturo Toscanini conducts the NBC Symphony for the final time</string>
+		<key>moment</key>
+		<date>1954-04-05T00:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Arturo_Toscanini</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Juan Perón is ousted as President of Argentina</string>
+		<key>moment</key>
+		<date>1955-09-16T15:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Revolución_Libertadora</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roy Cohn resigns as Joe McCarthy&apos;s chief council</string>
+		<key>moment</key>
+		<date>1954-07-20T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Roy_Cohn</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Council for Mutual Economic Assistance is formed, creating the Communist Bloc</string>
+		<key>moment</key>
+		<date>1949-01-05T10:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Comecon</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roy Campanella becomes the 2nd african-american to play in a Major League Baseball game</string>
+		<key>moment</key>
+		<date>1948-04-20T18:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.baseball-reference.com/boxes/NY1/NY1194804200.shtml</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Winthrop Rockefeller is inaugurated as Governor of Arkansas</string>
+		<key>moment</key>
+		<date>1967-01-10T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Winthrop_Rockefeller</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sergei Prokofiev dies in Moscow</string>
+		<key>moment</key>
+		<date>1953-03-05T19:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Sergei_Prokofiev</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gamal Abdel Nasser is elected as President of Egypt</string>
+		<key>moment</key>
+		<date>1956-06-23T21:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Georgy Malenkov is named Premier of the Soviet Union</string>
+		<key>moment</key>
+		<date>1953-03-06T10:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Georgy_Malenkov</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Joseph Stalin dies of a stroke</string>
+		<key>moment</key>
+		<date>1953-03-05T19:50:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>George Santayana dies in Rome</string>
+		<key>moment</key>
+		<date>1952-09-26T22:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.thecrimson.com/article/1952/9/29/george-santayana-88-dies-in-rome/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Liberace Show premeries on TV in the US</string>
+		<key>moment</key>
+		<date>1952-07-01T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Liberace</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rocky Marciano retires from boxing as the undefeated world heavyweight champion</string>
+		<key>moment</key>
+		<date>1956-04-27T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Rocky_Marciano</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Elizabeth II is coronated as Queen of England</string>
+		<key>moment</key>
+		<date>1953-06-02T11:15:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The first successful test of a polio vaccine is announced</string>
+		<key>moment</key>
+		<date>1953-03-26T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Polio_vaccine</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dwight D. Eisenhower is first inaugurated as President of the United States</string>
+		<key>moment</key>
+		<date>1953-01-20T15:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Dwight_D._Eisenhower</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Catcher in the Rye is published</string>
+		<key>moment</key>
+		<date>1951-07-16T13:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The King and I premieres at the St. James Theatre on Broadway</string>
+		<key>moment</key>
+		<date>1951-03-30T00:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/The_King_and_I</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Marlon Brando stars in On the Waterfront</string>
+		<key>moment</key>
+		<date>1954-10-01T15:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/On_the_Waterfront</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>North Korea invades South Korea to begin the Korean War</string>
+		<key>moment</key>
+		<date>1950-06-24T07:40:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Korean_War</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sugar Ray Robinson is crowned the Middleweight Champion of the World at the St. Valentine&apos;s Day Massacre</string>
+		<key>moment</key>
+		<date>1951-02-15T03:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Sugar_Ray_Robinson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Little Boy is detonated by the US in Hiroshima</string>
+		<key>moment</key>
+		<date>1945-08-05T11:15:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Julius and Ethel Rosenberg are convicted of espionage</string>
+		<key>moment</key>
+		<date>1951-03-29T15:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Julius_and_Ethel_Rosenberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Marilyn Monroe appears on the cover of LIFE Magazine</string>
+		<key>moment</key>
+		<date>1952-04-07T05:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Marilyn_Monroe</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Korean Armistice Agreement is signed in Panmunjom</string>
+		<key>moment</key>
+		<date>1953-07-27T01:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Korean_Armistice_Agreement</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The first prototype of an all-electric television is demonstrated to the public</string>
+		<key>moment</key>
+		<date>1928-09-03T19:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Television</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Studebaker produces its last car</string>
+		<key>moment</key>
+		<date>1966-03-17T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Studebaker</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Richard Nixon resigns as President of the United States amid the Watergate scandal</string>
+		<key>moment</key>
+		<date>1974-08-09T16:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.washingtonpost.com/wp-srv/national/longterm/watergate/articles/080974-3.htm</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Joseph McCarthy is censured by the US Senate for his unethical actions</string>
+		<key>moment</key>
+		<date>1954-12-02T17:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.senate.gov/artandhistory/history/common/censure_cases/133Joseph_McCarthy.htm</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Joe DiMaggio plays the final game of his illustrious baseball career</string>
+		<key>moment</key>
+		<date>1951-09-30T18:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://www.baseball-reference.com/boxes/NYA/NYA195109300.shtml</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Walter Winchell makes his radio debut</string>
+		<key>moment</key>
+		<date>1930-05-12T22:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Walter_Winchell</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The musical &quot;South Pacific&quot; opens at Broadway&apos;s Majestic Theatre</string>
+		<key>moment</key>
+		<date>1949-04-08T00:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/South_Pacific_(musical)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Johnnie Ray&apos;s titleless debut album is first listed on the Billboard charts</string>
+		<key>moment</key>
+		<date>1952-05-03T04:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/Johnnie_Ray_(album)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Communist Party Chairman Mao Zedong declares the establishment of the People&apos;s Republic of China</string>
+		<key>moment</key>
+		<date>1949-09-21T04:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/History_of_the_People%27s_Republic_of_China_(1949–1976)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Doris Day Show premieres on CBS</string>
+		<key>moment</key>
+		<date>1968-09-24T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/The_Doris_Day_Show</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Harry Truman is inaugurated as President of the United States</string>
+		<key>moment</key>
+		<date>1945-04-12T23:00:00Z</date>
+		<key>infoLink</key>
+		<string>https://en.wikipedia.org/wiki/First_inauguration_of_Harry_S._Truman</string>
+	</dict>
+</array>
+</plist>
