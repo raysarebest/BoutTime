@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,220 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_Bout_Time" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8qW-0b-jQb" userLabel="Centering View">
+                                <rect key="frame" x="25" y="52" width="364" height="701"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Q8X-Up-E23">
+                                        <rect key="frame" x="0.0" y="34.666666666666686" width="364" height="632"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6x-0j-nUe" customClass="EventView" customModule="_Bout_Time" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="364" height="152"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8f-tg-gOe" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
+                                                        <rect key="frame" x="312" y="0.0" width="52" height="152"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="152" id="2yb-Fo-7uY"/>
+                                                            <constraint firstAttribute="width" secondItem="t8f-tg-gOe" secondAttribute="height" multiplier="52:152" id="C6y-Ty-obh"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Repositioning Arrows/Down/Full-Height/normal"/>
+                                                        <state key="highlighted" image="Repositioning Arrows/Down/Full-Height/highlighted"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="NO"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="t8f-tg-gOe" firstAttribute="top" secondItem="e6x-0j-nUe" secondAttribute="top" id="HoF-R3-FD0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="t8f-tg-gOe" secondAttribute="trailing" id="lMD-jD-Div"/>
+                                                    <constraint firstAttribute="bottom" secondItem="t8f-tg-gOe" secondAttribute="bottom" id="r27-XI-EKA"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Oq-h6-DHM" customClass="EventView" customModule="_Bout_Time" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="160" width="364" height="152"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84N-Ly-ryp" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
+                                                        <rect key="frame" x="312" y="0.0" width="52" height="76"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="84N-Ly-ryp" secondAttribute="height" multiplier="52:76" id="Z8h-Kt-Faf"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Repositioning Arrows/Up/Half-Height/normal"/>
+                                                        <state key="highlighted" image="Repositioning Arrows/Up/Half-Height/highlighted"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-qd-jwa" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
+                                                        <rect key="frame" x="312" y="76.000000000000028" width="52" height="76"/>
+                                                        <state key="normal" image="Repositioning Arrows/Down/Half-Height/normal"/>
+                                                        <state key="highlighted" image="Repositioning Arrows/Down/Half-Height/highlighted"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="84N-Ly-ryp" firstAttribute="top" secondItem="7Oq-h6-DHM" secondAttribute="top" id="KGJ-x9-EbG"/>
+                                                    <constraint firstItem="XR3-qd-jwa" firstAttribute="centerX" secondItem="84N-Ly-ryp" secondAttribute="centerX" id="XaO-li-GzS"/>
+                                                    <constraint firstItem="XR3-qd-jwa" firstAttribute="top" secondItem="84N-Ly-ryp" secondAttribute="bottom" id="bGm-Mx-P8D"/>
+                                                    <constraint firstAttribute="trailing" secondItem="XR3-qd-jwa" secondAttribute="trailing" id="fx7-Ik-BvJ"/>
+                                                    <constraint firstItem="XR3-qd-jwa" firstAttribute="height" secondItem="84N-Ly-ryp" secondAttribute="height" id="mfT-Ii-J3F"/>
+                                                    <constraint firstItem="XR3-qd-jwa" firstAttribute="width" secondItem="84N-Ly-ryp" secondAttribute="width" id="nXs-l6-Oxf"/>
+                                                    <constraint firstAttribute="bottom" secondItem="XR3-qd-jwa" secondAttribute="bottom" id="wlF-gk-lni"/>
+                                                    <constraint firstItem="XR3-qd-jwa" firstAttribute="top" secondItem="84N-Ly-ryp" secondAttribute="bottom" id="wxn-Gi-hdH"/>
+                                                    <constraint firstAttribute="trailing" secondItem="84N-Ly-ryp" secondAttribute="trailing" id="xDl-v1-JJ3"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utL-hy-eys" customClass="EventView" customModule="_Bout_Time" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="320" width="364" height="152"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frv-QC-B8y" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
+                                                        <rect key="frame" x="312" y="0.0" width="52" height="76"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="frv-QC-B8y" secondAttribute="height" multiplier="52:76" id="fZ2-sA-lQa"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Repositioning Arrows/Up/Half-Height/normal"/>
+                                                        <state key="highlighted" image="Repositioning Arrows/Up/Half-Height/highlighted"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwH-Ad-CTu" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
+                                                        <rect key="frame" x="312" y="76" width="52" height="76"/>
+                                                        <state key="normal" image="Repositioning Arrows/Down/Half-Height/normal"/>
+                                                        <state key="highlighted" image="Repositioning Arrows/Down/Half-Height/highlighted"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="BwH-Ad-CTu" secondAttribute="trailing" id="1wP-55-RXg"/>
+                                                    <constraint firstItem="frv-QC-B8y" firstAttribute="top" secondItem="utL-hy-eys" secondAttribute="top" id="Ses-2u-0cG"/>
+                                                    <constraint firstItem="BwH-Ad-CTu" firstAttribute="top" secondItem="frv-QC-B8y" secondAttribute="bottom" id="Tap-BA-nJ9"/>
+                                                    <constraint firstItem="BwH-Ad-CTu" firstAttribute="height" secondItem="frv-QC-B8y" secondAttribute="height" id="XsX-cV-sna"/>
+                                                    <constraint firstItem="BwH-Ad-CTu" firstAttribute="top" secondItem="frv-QC-B8y" secondAttribute="bottom" id="dBG-T1-zo2"/>
+                                                    <constraint firstAttribute="trailing" secondItem="frv-QC-B8y" secondAttribute="trailing" id="kn7-wd-a9g"/>
+                                                    <constraint firstAttribute="bottom" secondItem="BwH-Ad-CTu" secondAttribute="bottom" id="lhM-Rg-iSj"/>
+                                                    <constraint firstItem="BwH-Ad-CTu" firstAttribute="centerX" secondItem="frv-QC-B8y" secondAttribute="centerX" id="m4h-pV-0GZ"/>
+                                                    <constraint firstItem="BwH-Ad-CTu" firstAttribute="width" secondItem="frv-QC-B8y" secondAttribute="width" id="uaZ-g5-7x5"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ao2-Hw-TLU" customClass="EventView" customModule="_Bout_Time" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="480" width="364" height="152"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzv-Ie-mO7" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
+                                                        <rect key="frame" x="312" y="0.0" width="52" height="152"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="pzv-Ie-mO7" secondAttribute="height" multiplier="52:152" id="j3p-Yg-DbJ"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Repositioning Arrows/Up/Full-Height/normal"/>
+                                                        <state key="highlighted" image="Repositioning Arrows/Up/Full-Height/highlighted"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                                <integer key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="pzv-Ie-mO7" secondAttribute="trailing" id="4Ac-nf-mFk"/>
+                                                    <constraint firstAttribute="bottom" secondItem="pzv-Ie-mO7" secondAttribute="bottom" id="VzM-e2-ia0"/>
+                                                    <constraint firstItem="pzv-Ie-mO7" firstAttribute="top" secondItem="Ao2-Hw-TLU" secondAttribute="top" id="Yew-Xh-5sN"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="84N-Ly-ryp" firstAttribute="width" secondItem="t8f-tg-gOe" secondAttribute="width" id="1dk-PY-Xra"/>
+                                            <constraint firstItem="frv-QC-B8y" firstAttribute="centerX" secondItem="XR3-qd-jwa" secondAttribute="centerX" id="6oF-yh-rZu"/>
+                                            <constraint firstItem="frv-QC-B8y" firstAttribute="width" secondItem="XR3-qd-jwa" secondAttribute="width" id="TK4-Y9-BF5"/>
+                                            <constraint firstItem="pzv-Ie-mO7" firstAttribute="centerX" secondItem="BwH-Ad-CTu" secondAttribute="centerX" id="bnM-Ou-V6K"/>
+                                            <constraint firstItem="84N-Ly-ryp" firstAttribute="centerX" secondItem="t8f-tg-gOe" secondAttribute="centerX" id="gf3-nb-mvh"/>
+                                            <constraint firstItem="BwH-Ad-CTu" firstAttribute="width" secondItem="pzv-Ie-mO7" secondAttribute="width" id="lED-0k-Hmh"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Q8X-Up-E23" firstAttribute="centerY" secondItem="8qW-0b-jQb" secondAttribute="centerY" id="2lQ-q3-KSx"/>
+                                    <constraint firstItem="Q8X-Up-E23" firstAttribute="leading" secondItem="8qW-0b-jQb" secondAttribute="leading" id="HC5-Rq-IOH"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q8X-Up-E23" secondAttribute="trailing" id="RTx-uN-XDf"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Q8X-Up-E23" secondAttribute="bottom" id="SwA-FD-Ymz"/>
+                                    <constraint firstItem="Q8X-Up-E23" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8qW-0b-jQb" secondAttribute="top" id="zCT-bx-a4Z"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake to Complete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Res-j0-GK9">
+                                <rect key="frame" x="16" y="817" width="382" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="sJ6-pw-G4f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.2196078431372549" green="0.56470588235294117" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:42" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmE-I8-kcA">
+                                <rect key="frame" x="16" y="769" width="382" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qFv-O1-foJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.16470588235294117" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WmE-I8-kcA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4RA-Wt-Yfp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Res-j0-GK9" secondAttribute="bottom" constant="20" id="Cs5-7n-VEX"/>
+                            <constraint firstItem="Res-j0-GK9" firstAttribute="top" secondItem="WmE-I8-kcA" secondAttribute="bottom" constant="8" id="Lrs-rz-Bq6"/>
+                            <constraint firstItem="Res-j0-GK9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Sxf-Qd-nUV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WmE-I8-kcA" secondAttribute="trailing" constant="16" id="UJQ-QS-aLl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Res-j0-GK9" secondAttribute="trailing" constant="16" id="Uf2-l2-LKk"/>
+                            <constraint firstItem="WmE-I8-kcA" firstAttribute="top" secondItem="8qW-0b-jQb" secondAttribute="bottom" constant="16" id="aUZ-vA-NDG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8qW-0b-jQb" secondAttribute="trailing" constant="25" id="d9t-fz-GZ6"/>
+                            <constraint firstItem="8qW-0b-jQb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="uc8-pm-aKw"/>
+                            <constraint firstItem="8qW-0b-jQb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="zxX-fO-RrF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Repositioning Arrows/Down/Full-Height/highlighted" width="52.666667938232422" height="152.33332824707031"/>
+        <image name="Repositioning Arrows/Down/Full-Height/normal" width="52.666667938232422" height="152.33332824707031"/>
+        <image name="Repositioning Arrows/Down/Half-Height/highlighted" width="52.666667938232422" height="76.333335876464844"/>
+        <image name="Repositioning Arrows/Down/Half-Height/normal" width="52.666667938232422" height="76.333335876464844"/>
+        <image name="Repositioning Arrows/Up/Full-Height/highlighted" width="52.666667938232422" height="152.33332824707031"/>
+        <image name="Repositioning Arrows/Up/Full-Height/normal" width="52.666667938232422" height="152.33332824707031"/>
+        <image name="Repositioning Arrows/Up/Half-Height/highlighted" width="52.666667938232422" height="76.333335876464844"/>
+        <image name="Repositioning Arrows/Up/Half-Height/normal" width="52.666667938232422" height="76.333335876464844"/>
+    </resources>
 </document>

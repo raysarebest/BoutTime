@@ -32,12 +32,11 @@ class Quiz{
             do{
                 let events = try PropertyListDecoder().decode([Event].self, from: try Data(contentsOf: URL(fileURLWithPath: path)))
 
-                if events.count < Quiz.minQuestionEventCount{
+                guard events.count > Quiz.minQuestionEventCount else{
                     fatalError("Too few events were found. \(Quiz.minQuestionEventCount) are required, but \(events.count) were found")
                 }
-                else{
-                    return events
-                }
+
+                return events
             }
             catch{
                 fatalError("Error parsing question list: " + error.localizedDescription)

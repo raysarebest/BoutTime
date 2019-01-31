@@ -1,26 +1,22 @@
 {
   "images" : [
     {
-      "size" : "158x457",
       "idiom" : "universal",
-      "filename" : "down_full_selected@3x.png",
-      "scale" : "3x"
+      "scale" : "1x"
     },
     {
-      "size" : "105x304",
       "idiom" : "universal",
       "filename" : "down_full_selected@2x.png",
       "scale" : "2x"
     },
     {
-      "size" : "52x152",
       "idiom" : "universal",
-      "filename" : "down_full_selected@1x.png",
-      "scale" : "1x"
+      "filename" : "down_full_selected@3x.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
     "version" : 1,
-    "author" : "xcresize"
+    "author" : "xcode"
   }
 }

@@ -15,6 +15,8 @@
 		4C215D4121C1C1400037164B /* Events.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C215D4021C1C1400037164B /* Events.plist */; };
 		4C24489221BF41C600B05645 /* QuizTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24489121BF41C600B05645 /* QuizTimer.swift */; };
 		4C41A42E21B9B717003B0A84 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C41A42D21B9B717003B0A84 /* Quiz.swift */; };
+		4C859AA82202B7FB00C667E5 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C859AA72202B7FB00C667E5 /* EventView.swift */; };
+		4C859AAA2202BB5E00C667E5 /* ReorderingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C859AA92202BB5E00C667E5 /* ReorderingButton.swift */; };
 		4CED981921B3B83000D59DDC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED981821B3B83000D59DDC /* Event.swift */; };
 		4CED981B21B3CD2300D59DDC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED981A21B3CD2300D59DDC /* Question.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		4C215D4021C1C1400037164B /* Events.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Events.plist; sourceTree = "<group>"; };
 		4C24489121BF41C600B05645 /* QuizTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTimer.swift; sourceTree = "<group>"; };
 		4C41A42D21B9B717003B0A84 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		4C859AA72202B7FB00C667E5 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		4C859AA92202BB5E00C667E5 /* ReorderingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderingButton.swift; sourceTree = "<group>"; };
 		4CED981621B3B74D00D59DDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CED981821B3B83000D59DDC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4CED981A21B3CD2300D59DDC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				4C1D0E9421B23C5700402257 /* AppDelegate.swift */,
 				4C1D0E9621B23C5700402257 /* ViewController.swift */,
 				4C1D0E9821B23C5700402257 /* Main.storyboard */,
+				4C859AA92202BB5E00C667E5 /* ReorderingButton.swift */,
+				4C859AA72202B7FB00C667E5 /* EventView.swift */,
 				4C1D0E9B21B23C5900402257 /* Assets.xcassets */,
 				4C1D0E9D21B23C5900402257 /* LaunchScreen.storyboard */,
 				4C1D0EA021B23C5900402257 /* Info.plist */,
@@ -154,10 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1D0E9721B23C5700402257 /* ViewController.swift in Sources */,
+				4C859AA82202B7FB00C667E5 /* EventView.swift in Sources */,
 				4C41A42E21B9B717003B0A84 /* Quiz.swift in Sources */,
 				4CED981B21B3CD2300D59DDC /* Question.swift in Sources */,
 				4CED981921B3B83000D59DDC /* Event.swift in Sources */,
 				4C24489221BF41C600B05645 /* QuizTimer.swift in Sources */,
+				4C859AAA2202BB5E00C667E5 /* ReorderingButton.swift in Sources */,
 				4C1D0E9521B23C5700402257 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
