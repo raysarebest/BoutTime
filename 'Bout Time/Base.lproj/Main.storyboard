@@ -41,6 +41,9 @@
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="shouldReorderUpwards" value="NO"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="reorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fzi-GI-L96"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sugar Ray Robinson is crowned the Middleweight World Champion at the St. Valentine's Day Massacre" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="F5X-QN-H7O">
                                                         <rect key="frame" x="8" y="8" width="226.5" height="64"/>
@@ -79,6 +82,9 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="reorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="REy-rR-v7K"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-qd-jwa" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
                                                         <rect key="frame" x="242.5" y="39.5" width="27.5" height="40"/>
@@ -90,6 +96,9 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="reorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Asi-cv-Bca"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="bfc-4R-MbR">
                                                         <rect key="frame" x="8" y="8" width="226.5" height="63.5"/>
@@ -134,6 +143,9 @@
                                                                 <integer key="value" value="2"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="reorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffK-C8-fpl"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwH-Ad-CTu" customClass="ReorderingButton" customModule="_Bout_Time" customModuleProvider="target">
                                                         <rect key="frame" x="242.5" y="40" width="27.5" height="40"/>
@@ -145,6 +157,9 @@
                                                                 <integer key="value" value="2"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="reorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qak-uJ-7Xg"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="agH-3i-xCG">
                                                         <rect key="frame" x="8" y="8" width="226.5" height="64"/>
@@ -189,6 +204,9 @@
                                                                 <integer key="value" value="3"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="reorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GAl-fm-cwc"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2zN-X2-74k">
                                                         <rect key="frame" x="8" y="8" width="226.5" height="63.5"/>
@@ -265,6 +283,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="eventsStackView" destination="Q8X-Up-E23" id="m1o-Az-GTR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

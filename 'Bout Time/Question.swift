@@ -52,7 +52,7 @@ struct Question{
         reorder(index: index, direction: direction)
     }
 
-    enum ReorderDirection: Int{
+    @objc enum ReorderDirection: Int{
         case up = -1
         case down = 1
     }

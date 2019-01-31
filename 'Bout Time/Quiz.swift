@@ -33,25 +33,11 @@ class Quiz{
                 let rawData = try Data(contentsOf: URL(fileURLWithPath: path))
                 let events = try PropertyListDecoder().decode([Event].self, from: rawData)
 
-//                print("\(events.count)")
-//
-//                for event in events{
-//                    let link = (((event as! NSDictionary)["infoLink"]!) as! NSDictionary)["relative"]!
-//                    if "\(type(of: link))" == "__NSCFConstantString"{
-//                        dump(link)
-//                    }
-//                    else{
-//                        print("\(type(of: link))")
-//                    }
-//                }
-
                 guard events.count > Quiz.minQuestionEventCount else{
                     fatalError("Too few events were found. \(Quiz.minQuestionEventCount) are required, but \(events.count) were found")
                 }
 
                 return events
-
-                //return [Event]()
             }
             catch{
                 print(error.localizedDescription)
@@ -67,6 +53,11 @@ class Quiz{
                 return nil
             }
             return questions[currentQuestionIndex]
+        }
+        set{
+            if let new = newValue{
+                questions[currentQuestionIndex] = new
+            }
         }
     }
     weak var delegate: QuizDelegate?
@@ -99,7 +90,9 @@ class Quiz{
         guard let question = currentQuestion else{
             throw Error.quizComplete
         }
-        currentQuestionIndex += 1
+        defer{
+            currentQuestionIndex += 1
+        }
         return question.isOrdered
     }
 
