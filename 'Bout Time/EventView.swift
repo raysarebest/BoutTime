@@ -9,7 +9,7 @@
 import UIKit
 
 class EventView: UIView {
-
+    @IBOutlet var eventLabel: UILabel!
     override func layoutSubviews() -> Void{
         layer.cornerRadius = 5
         super.layoutSubviews()

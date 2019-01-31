@@ -9,5 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController{
+    var trivia = Quiz()
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        get{
+            return .lightContent
+        }
+    }
 
+    override func viewDidAppear(_ animated: Bool) -> Void{
+        super.viewDidAppear(animated)
+        trivia.startTimer()
+    }
 }

@@ -30,15 +30,31 @@ class Quiz{
             }
 
             do{
-                let events = try PropertyListDecoder().decode([Event].self, from: try Data(contentsOf: URL(fileURLWithPath: path)))
+                let rawData = try Data(contentsOf: URL(fileURLWithPath: path))
+                let events = try PropertyListDecoder().decode([Event].self, from: rawData)
+
+//                print("\(events.count)")
+//
+//                for event in events{
+//                    let link = (((event as! NSDictionary)["infoLink"]!) as! NSDictionary)["relative"]!
+//                    if "\(type(of: link))" == "__NSCFConstantString"{
+//                        dump(link)
+//                    }
+//                    else{
+//                        print("\(type(of: link))")
+//                    }
+//                }
 
                 guard events.count > Quiz.minQuestionEventCount else{
                     fatalError("Too few events were found. \(Quiz.minQuestionEventCount) are required, but \(events.count) were found")
                 }
 
                 return events
+
+                //return [Event]()
             }
             catch{
+                print(error.localizedDescription)
                 fatalError("Error parsing question list: " + error.localizedDescription)
             }
         }

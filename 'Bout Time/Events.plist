@@ -8,7 +8,10 @@
 		<key>moment</key>
 		<date>1985-07-30T21:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/STS-51-F</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/STS-51-F</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -16,7 +19,10 @@
 		<key>moment</key>
 		<date>1989-05-21T15:27:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -24,7 +30,10 @@
 		<key>moment</key>
 		<date>1988-07-06T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Syringe_tide</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Syringe_tide</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -32,7 +41,10 @@
 		<key>moment</key>
 		<date>1984-12-22T18:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1984_New_York_City_Subway_shooting</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1984_New_York_City_Subway_shooting</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -40,7 +52,10 @@
 		<key>moment</key>
 		<date>1986-06-19T10:32:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Len_Bias</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Len_Bias</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -48,7 +63,10 @@
 		<key>moment</key>
 		<date>1983-05-20T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/HIV/AIDS</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/HIV/AIDS</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -56,7 +74,10 @@
 		<key>moment</key>
 		<date>1987-12-30T12:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.nytimes.com/1987/12/30/us/nation-s-homeless-veterans-battle-a-new-foe-defeatism.html</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.nytimes.com/1987/12/30/us/nation-s-homeless-veterans-battle-a-new-foe-defeatism.html</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -64,7 +85,10 @@
 		<key>moment</key>
 		<date>1981-10-22T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.politico.com/story/2017/10/22/us-national-debt-tops-1-trillion-oct-22-1981-243966</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.politico.com/story/2017/10/22/us-national-debt-tops-1-trillion-oct-22-1981-243966</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -72,7 +96,10 @@
 		<key>moment</key>
 		<date>1984-10-27T04:00:00Z</date>
 		<key>infoLink</key>
-		<string>http://ultimateclassicrock.com/ozzy-osbourne-fan-suicide/</string>
+		<dict>
+			<key>relative</key>
+			<string>http://ultimateclassicrock.com/ozzy-osbourne-fan-suicide/</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -80,7 +107,10 @@
 		<key>moment</key>
 		<date>1983-06-18T11:33:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Sally_Ride</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Sally_Ride</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -88,7 +118,10 @@
 		<key>moment</key>
 		<date>1981-12-28T15:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Wheel_of_Fortune_(U.S._game_show)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Wheel_of_Fortune_(U.S._game_show)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -96,7 +129,10 @@
 		<key>moment</key>
 		<date>1979-12-27T14:45:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Soviet–Afghan_War</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Soviet-Afghan_War</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -104,7 +140,10 @@
 		<key>moment</key>
 		<date>1979-02-01T05:57:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Ruhollah_Khomeini%27s_return_to_Iran</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Ruhollah_Khomeini%27s_return_to_Iran</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -112,7 +151,10 @@
 		<key>moment</key>
 		<date>1976-06-27T10:34:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Operation_Entebbe</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Operation_Entebbe</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -120,7 +162,10 @@
 		<key>moment</key>
 		<date>1988-11-15T14:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Palestinian_Declaration_of_Independence</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Palestinian_Declaration_of_Independence</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -128,7 +173,10 @@
 		<key>moment</key>
 		<date>1980-11-05T01:15:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1980_United_States_presidential_election</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1980_United_States_presidential_election</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -136,7 +184,10 @@
 		<key>moment</key>
 		<date>1977-06-20T10:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Menachem_Begin</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Menachem_Begin</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -144,7 +195,10 @@
 		<key>moment</key>
 		<date>1974-06-05T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Punk_rock</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Punk_rock</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -152,7 +206,10 @@
 		<key>moment</key>
 		<date>1968-11-06T03:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1968_United_States_presidential_election</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1968_United_States_presidential_election</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -160,7 +217,10 @@
 		<key>moment</key>
 		<date>1969-08-15T21:07:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Woodstock</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Woodstock</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -168,7 +228,10 @@
 		<key>moment</key>
 		<date>1969-07-20T20:18:04Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Apollo_11</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Apollo_11</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -176,7 +239,10 @@
 		<key>moment</key>
 		<date>1950-11-08T03:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1950_United_States_Senate_election_in_California</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1950_United_States_Senate_election_in_California</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -184,7 +250,10 @@
 		<key>moment</key>
 		<date>1965-03-02T05:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Ho_Chi_Minh_trail</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Ho_Chi_Minh_trail</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -192,7 +261,10 @@
 		<key>moment</key>
 		<date>1960-06-23T04:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Birth_control</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Birth_control</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -200,7 +272,10 @@
 		<key>moment</key>
 		<date>1963-11-22T18:30:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -208,7 +283,10 @@
 		<key>moment</key>
 		<date>1963-06-05T12:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Profumo_affair</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Profumo_affair</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -216,7 +294,10 @@
 		<key>moment</key>
 		<date>1965-02-19T20:30:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Malcolm_X</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Malcolm_X</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -224,7 +305,10 @@
 		<key>moment</key>
 		<date>1963-06-21T12:22:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Pope_Paul_VI</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Pope_Paul_VI</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -232,7 +316,10 @@
 		<key>moment</key>
 		<date>1962-09-26T01:32:06Z</date>
 		<key>infoLink</key>
-		<string>http://boxrec.com/media/index.php/Floyd_Patterson_vs._Sonny_Liston_(1st_meeting)</string>
+		<dict>
+			<key>relative</key>
+			<string>http://boxrec.com/media/index.php/Floyd_Patterson_vs._Sonny_Liston_(1st_meeting)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -240,7 +327,10 @@
 		<key>moment</key>
 		<date>1962-02-20T14:47:39Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/John_Glenn</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/John_Glenn</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -248,7 +338,10 @@
 		<key>moment</key>
 		<date>1962-10-01T00:30:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Ole_Miss_riot_of_1962</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Ole_Miss_riot_of_1962</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -256,7 +349,10 @@
 		<key>moment</key>
 		<date>1964-02-07T18:20:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Beatlemania</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Beatlemania</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -264,7 +360,10 @@
 		<key>moment</key>
 		<date>1962-12-10T18:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -272,7 +371,10 @@
 		<key>moment</key>
 		<date>1961-04-16T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -280,7 +382,10 @@
 		<key>moment</key>
 		<date>1961-08-12T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Berlin_Wall</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Berlin_Wall</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -288,7 +393,10 @@
 		<key>moment</key>
 		<date>1961-10-26T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Bob_Dylan</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Bob_Dylan</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -296,7 +404,10 @@
 		<key>moment</key>
 		<date>1961-06-01T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -304,7 +415,10 @@
 		<key>moment</key>
 		<date>1960-05-11T20:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Adolf_Eichmann</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Adolf_Eichmann</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -312,7 +426,10 @@
 		<key>moment</key>
 		<date>1961-07-02T08:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Ernest_Hemingway</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Ernest_Hemingway</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -320,7 +437,10 @@
 		<key>moment</key>
 		<date>1960-06-30T10:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Congo_Crisis</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Congo_Crisis</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -328,7 +448,10 @@
 		<key>moment</key>
 		<date>1960-06-16T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Psycho_(1960_film)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Psycho_(1960_film)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -336,7 +459,10 @@
 		<key>moment</key>
 		<date>1960-08-07T00:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Chubby_Checker</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Chubby_Checker</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -344,7 +470,10 @@
 		<key>moment</key>
 		<date>1960-11-09T11:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1960_United_States_presidential_election</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1960_United_States_presidential_election</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -352,7 +481,10 @@
 		<key>moment</key>
 		<date>1960-04-29T13:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Payola</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Payola</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -360,7 +492,10 @@
 		<key>moment</key>
 		<date>1960-04-27T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Syngman_Rhee</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Syngman_Rhee</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -368,7 +503,10 @@
 		<key>moment</key>
 		<date>1960-05-01T07:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1960_U-2_incident</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1960_U-2_incident</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -376,7 +514,10 @@
 		<key>moment</key>
 		<date>1959-11-19T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Edsel</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Edsel</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -384,7 +525,10 @@
 		<key>moment</key>
 		<date>1959-02-16T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Fidel_Castro</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Fidel_Castro</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -392,7 +536,10 @@
 		<key>moment</key>
 		<date>1958-09-06T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Hula_hoop</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Hula_hoop</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -400,7 +547,10 @@
 		<key>moment</key>
 		<date>1957-11-14T18:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Apalachin_meeting</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Apalachin_meeting</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -408,7 +558,10 @@
 		<key>moment</key>
 		<date>1959-05-28T06:39:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Monkeys_and_apes_in_space</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Monkeys_and_apes_in_space</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -416,7 +569,10 @@
 		<key>moment</key>
 		<date>1959-11-19T01:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -424,7 +580,10 @@
 		<key>moment</key>
 		<date>1959-02-03T07:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Buddy_Holly</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Buddy_Holly</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -432,7 +591,10 @@
 		<key>moment</key>
 		<date>1961-12-16T02:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Thalidomide</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Thalidomide</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -440,7 +602,10 @@
 		<key>moment</key>
 		<date>1959-06-25T05:04:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Charles_Starkweather</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Charles_Starkweather</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -448,7 +613,10 @@
 		<key>moment</key>
 		<date>1958-04-15T21:05:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.baseball-reference.com/boxes/SFN/SFN195804150.shtml</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.baseball-reference.com/boxes/SFN/SFN195804150.shtml</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -456,7 +624,10 @@
 		<key>moment</key>
 		<date>1959-01-08T09:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Charles_de_Gaulle</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Charles_de_Gaulle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -464,7 +635,10 @@
 		<key>moment</key>
 		<date>1958-07-15T10:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1958_Lebanon_crisis</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1958_Lebanon_crisis</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -472,7 +646,10 @@
 		<key>moment</key>
 		<date>1957-10-02T12:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/The_Bridge_on_the_River_Kwai</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/The_Bridge_on_the_River_Kwai</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -480,7 +657,10 @@
 		<key>moment</key>
 		<date>1955-04-11T09:25:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Kashmir_Princess</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Kashmir_Princess</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -488,7 +668,10 @@
 		<key>moment</key>
 		<date>1957-10-04T19:28:34Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Sputnik_1</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Sputnik_1</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -496,7 +679,10 @@
 		<key>moment</key>
 		<date>1957-09-05T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/On_the_Road</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/On_the_Road</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -504,7 +690,10 @@
 		<key>moment</key>
 		<date>1951-04-17T18:05:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Mickey_Mantle</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Mickey_Mantle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -512,7 +701,10 @@
 		<key>moment</key>
 		<date>1958-10-23T07:33:38Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Boris_Pasternak</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Boris_Pasternak</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -520,7 +712,10 @@
 		<key>moment</key>
 		<date>1957-09-04T13:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Little_Rock_Nine</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Little_Rock_Nine</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -528,7 +723,10 @@
 		<key>moment</key>
 		<date>1956-10-29T11:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Suez_Crisis</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Suez_Crisis</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -536,7 +734,10 @@
 		<key>moment</key>
 		<date>1956-09-24T14:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Peyton_Place_(novel)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Peyton_Place_(novel)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -544,7 +745,10 @@
 		<key>moment</key>
 		<date>1956-04-18T09:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Grace_Kelly</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Grace_Kelly</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -552,7 +756,10 @@
 		<key>moment</key>
 		<date>1956-02-25T07:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -560,7 +767,10 @@
 		<key>moment</key>
 		<date>1956-12-21T12:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Montgomery_bus_boycott</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Montgomery_bus_boycott</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -568,7 +778,10 @@
 		<key>moment</key>
 		<date>1956-10-23T19:30:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -576,7 +789,10 @@
 		<key>moment</key>
 		<date>1956-11-28T12:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/And_God_Created_Woman_(1956_film)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/And_God_Created_Woman_(1956_film)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -584,7 +800,10 @@
 		<key>moment</key>
 		<date>1955-07-17T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Disneyland</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Disneyland</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -592,7 +811,10 @@
 		<key>moment</key>
 		<date>1955-11-20T18:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.graceland.com/1954-1957</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.graceland.com/1954-1957</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -600,7 +822,10 @@
 		<key>moment</key>
 		<date>1955-03-08T00:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Peter_Pan_(1954_musical)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Peter_Pan_(1954_musical)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -608,7 +833,10 @@
 		<key>moment</key>
 		<date>1954-12-16T00:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Davy_Crockett_(miniseries)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Davy_Crockett_(miniseries)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -616,7 +844,10 @@
 		<key>moment</key>
 		<date>1955-10-04T19:44:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/1955_World_Series</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/1955_World_Series</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -624,7 +855,10 @@
 		<key>moment</key>
 		<date>1955-09-30T00:45:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/James_Dean</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/James_Dean</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -632,7 +866,10 @@
 		<key>moment</key>
 		<date>1955-04-18T07:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Albert_Einstein</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Albert_Einstein</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -640,7 +877,10 @@
 		<key>moment</key>
 		<date>1954-05-20T14:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Rock_Around_the_Clock</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Rock_Around_the_Clock</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -648,7 +888,10 @@
 		<key>moment</key>
 		<date>1954-05-07T11:20:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -656,7 +899,10 @@
 		<key>moment</key>
 		<date>1952-06-10T14:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Polyethylene_terephthalate</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Polyethylene_terephthalate</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -664,7 +910,10 @@
 		<key>moment</key>
 		<date>1954-04-05T00:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Arturo_Toscanini</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Arturo_Toscanini</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -672,7 +921,10 @@
 		<key>moment</key>
 		<date>1955-09-16T15:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Revolución_Libertadora</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Revoluci%C3%B3n_Libertadora</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -680,7 +932,10 @@
 		<key>moment</key>
 		<date>1954-07-20T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Roy_Cohn</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Roy_Cohn</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -688,7 +943,10 @@
 		<key>moment</key>
 		<date>1949-01-05T10:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Comecon</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Comecon</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -696,7 +954,10 @@
 		<key>moment</key>
 		<date>1948-04-20T18:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.baseball-reference.com/boxes/NY1/NY1194804200.shtml</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.baseball-reference.com/boxes/NY1/NY1194804200.shtml</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -704,7 +965,10 @@
 		<key>moment</key>
 		<date>1967-01-10T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Winthrop_Rockefeller</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Winthrop_Rockefeller</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -712,7 +976,10 @@
 		<key>moment</key>
 		<date>1953-03-05T19:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Sergei_Prokofiev</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Sergei_Prokofiev</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -720,7 +987,10 @@
 		<key>moment</key>
 		<date>1956-06-23T21:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -728,7 +998,10 @@
 		<key>moment</key>
 		<date>1953-03-06T10:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Georgy_Malenkov</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Georgy_Malenkov</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -736,7 +1009,10 @@
 		<key>moment</key>
 		<date>1953-03-05T19:50:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -744,7 +1020,10 @@
 		<key>moment</key>
 		<date>1952-09-26T22:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.thecrimson.com/article/1952/9/29/george-santayana-88-dies-in-rome/</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.thecrimson.com/article/1952/9/29/george-santayana-88-dies-in-rome/</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -752,7 +1031,10 @@
 		<key>moment</key>
 		<date>1952-07-01T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Liberace</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Liberace</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -760,7 +1042,10 @@
 		<key>moment</key>
 		<date>1956-04-27T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Rocky_Marciano</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Rocky_Marciano</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -768,7 +1053,10 @@
 		<key>moment</key>
 		<date>1953-06-02T11:15:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -776,7 +1064,10 @@
 		<key>moment</key>
 		<date>1953-03-26T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Polio_vaccine</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Polio_vaccine</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -784,7 +1075,10 @@
 		<key>moment</key>
 		<date>1953-01-20T15:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Dwight_D._Eisenhower</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Dwight_D._Eisenhower</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -792,7 +1086,10 @@
 		<key>moment</key>
 		<date>1951-07-16T13:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -800,7 +1097,10 @@
 		<key>moment</key>
 		<date>1951-03-30T00:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/The_King_and_I</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/The_King_and_I</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -808,7 +1108,10 @@
 		<key>moment</key>
 		<date>1954-10-01T15:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/On_the_Waterfront</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/On_the_Waterfront</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -816,15 +1119,21 @@
 		<key>moment</key>
 		<date>1950-06-24T07:40:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Korean_War</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Korean_War</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Sugar Ray Robinson is crowned the Middleweight Champion of the World at the St. Valentine&apos;s Day Massacre</string>
+		<string>Sugar Ray Robinson is crowned the Middleweight World Champion at the St. Valentine&apos;s Day Massacre</string>
 		<key>moment</key>
 		<date>1951-02-15T03:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Sugar_Ray_Robinson</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Sugar_Ray_Robinson</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -832,7 +1141,10 @@
 		<key>moment</key>
 		<date>1945-08-05T11:15:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -840,7 +1152,10 @@
 		<key>moment</key>
 		<date>1951-03-29T15:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Julius_and_Ethel_Rosenberg</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Julius_and_Ethel_Rosenberg</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -848,7 +1163,10 @@
 		<key>moment</key>
 		<date>1952-04-07T05:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Marilyn_Monroe</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Marilyn_Monroe</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -856,7 +1174,10 @@
 		<key>moment</key>
 		<date>1953-07-27T01:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Korean_Armistice_Agreement</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Korean_Armistice_Agreement</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -864,7 +1185,10 @@
 		<key>moment</key>
 		<date>1928-09-03T19:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Television</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Television</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -872,7 +1196,10 @@
 		<key>moment</key>
 		<date>1966-03-17T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Studebaker</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Studebaker</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -880,7 +1207,10 @@
 		<key>moment</key>
 		<date>1974-08-09T16:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.washingtonpost.com/wp-srv/national/longterm/watergate/articles/080974-3.htm</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.washingtonpost.com/wp-srv/national/longterm/watergate/articles/080974-3.htm</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -888,7 +1218,10 @@
 		<key>moment</key>
 		<date>1954-12-02T17:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.senate.gov/artandhistory/history/common/censure_cases/133Joseph_McCarthy.htm</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.senate.gov/artandhistory/history/common/censure_cases/133Joseph_McCarthy.htm</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -896,7 +1229,10 @@
 		<key>moment</key>
 		<date>1951-09-30T18:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://www.baseball-reference.com/boxes/NYA/NYA195109300.shtml</string>
+		<dict>
+			<key>relative</key>
+			<string>https://www.baseball-reference.com/boxes/NYA/NYA195109300.shtml</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -904,7 +1240,10 @@
 		<key>moment</key>
 		<date>1930-05-12T22:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Walter_Winchell</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Walter_Winchell</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -912,7 +1251,10 @@
 		<key>moment</key>
 		<date>1949-04-08T00:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/South_Pacific_(musical)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/South_Pacific_(musical)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -920,7 +1262,10 @@
 		<key>moment</key>
 		<date>1952-05-03T04:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/Johnnie_Ray_(album)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/Johnnie_Ray_(album)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -928,7 +1273,10 @@
 		<key>moment</key>
 		<date>1949-09-21T04:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/History_of_the_People%27s_Republic_of_China_(1949–1976)</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/History_of_the_People%27s_Republic_of_China_(1949-1976)</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -936,7 +1284,10 @@
 		<key>moment</key>
 		<date>1968-09-24T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/The_Doris_Day_Show</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/The_Doris_Day_Show</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -944,7 +1295,10 @@
 		<key>moment</key>
 		<date>1945-04-12T23:00:00Z</date>
 		<key>infoLink</key>
-		<string>https://en.wikipedia.org/wiki/First_inauguration_of_Harry_S._Truman</string>
+		<dict>
+			<key>relative</key>
+			<string>https://en.wikipedia.org/wiki/First_inauguration_of_Harry_S._Truman</string>
+		</dict>
 	</dict>
 </array>
 </plist>
