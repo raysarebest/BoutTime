@@ -60,8 +60,18 @@ class Quiz{
             }
         }
     }
+    var lastQuestion: Question?{
+        if case 1...questions.count = currentQuestionIndex{
+            return questions[currentQuestionIndex - 1]
+        }
+        else{
+            return nil
+        }
+    }
     weak var delegate: QuizDelegate?
     private var timer: QuizTimer?
+    var secondsPerQuestion: TimeInterval = 60
+    private(set) var score = 0
 
     init(questionCount: UInt = 6){
         for _ in 1...questionCount{
@@ -87,17 +97,21 @@ class Quiz{
         guard let countdown = timer, countdown.running else{
             throw Error.untimed
         }
+        stopTimer()
         guard let question = currentQuestion else{
             throw Error.quizComplete
         }
         defer{
             currentQuestionIndex += 1
         }
+        if question.isOrdered{
+            score += 1
+        }
         return question.isOrdered
     }
 
     func startTimer() -> Void{
-        timer = QuizTimer(countdownHandler: {(remainingSeconds: TimeInterval) in
+        timer = QuizTimer(seconds: secondsPerQuestion, countdownHandler: {(remainingSeconds: TimeInterval) in
             guard let question = self.currentQuestion else{
                 self.timer?.stop()
                 return

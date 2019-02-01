@@ -6,8 +6,7 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "IncorrectBuzz.wav",
-      "universal-type-identifier" : "com.microsoft.waveform-audio"
+      "filename" : "IncorrectBuzz.wav"
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Question{
+struct Question: Equatable{
     private(set) var events = [Event](){
         didSet{
             let uniques = Set(events)
@@ -17,10 +17,15 @@ struct Question{
             }
         }
     }
+
     var isOrdered: Bool{
         get{
-            return events == events.sorted()
+            return isOrdered(events: events)
         }
+    }
+
+    func isOrdered(events local: [Event]) -> Bool{
+        return local == events.sorted()
     }
 
     init<Collection: Sequence>(events: Collection) where Collection.Element == Event{

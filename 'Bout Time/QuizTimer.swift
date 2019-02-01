@@ -12,13 +12,14 @@ class QuizTimer{ // I wanna subclass `Timer` here instead of maintain my own int
 
     // MARK: - Properties
 
-    private(set) var remainingSeconds: TimeInterval = 15
+    private(set) var remainingSeconds: TimeInterval
     private(set) var running = true
     private var shouldStop = false
 
     // MARK: - Initializers
 
-    init(countdownHandler: @escaping (TimeInterval) -> Void){
+    init(seconds: TimeInterval, countdownHandler: @escaping (TimeInterval) -> Void){
+        remainingSeconds = seconds
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (timer: Timer) in
             guard self.remainingSeconds >= 0 && !self.shouldStop else{
                 timer.invalidate()
