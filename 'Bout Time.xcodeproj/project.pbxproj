@@ -83,19 +83,11 @@
 		4C1D0E9321B23C5700402257 /* 'Bout Time */ = {
 			isa = PBXGroup;
 			children = (
-				4CED981821B3B83000D59DDC /* Event.swift */,
-				4CED981A21B3CD2300D59DDC /* Question.swift */,
-				4C41A42D21B9B717003B0A84 /* Quiz.swift */,
-				4C215D4021C1C1400037164B /* Events.plist */,
-				4C24489121BF41C600B05645 /* QuizTimer.swift */,
+				4C99C725220595E100896E82 /* Models */,
+				4C99C7272205961000896E82 /* Sounds */,
+				4C99C724220595B700896E82 /* View Controllers */,
+				4C99C7262205960000896E82 /* Views */,
 				4C1D0E9421B23C5700402257 /* AppDelegate.swift */,
-				4C1D0E9621B23C5700402257 /* GameViewController.swift */,
-				4C1D0E9821B23C5700402257 /* Main.storyboard */,
-				4C99C7162204471F00896E82 /* PlayAgainViewController.swift */,
-				4C859AA92202BB5E00C667E5 /* ReorderingButton.swift */,
-				4C859AA72202B7FB00C667E5 /* EventView.swift */,
-				4C99C71E22044EA100896E82 /* Sound.swift */,
-				4C99C71C22044E8D00896E82 /* GameSound.swift */,
 				4C1D0E9B21B23C5900402257 /* Assets.xcassets */,
 				4C1D0E9D21B23C5900402257 /* LaunchScreen.storyboard */,
 				4C1D0EA021B23C5900402257 /* Info.plist */,
@@ -110,6 +102,46 @@
 				4C99C714220425EA00896E82 /* SafariServices.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C99C724220595B700896E82 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D0E9821B23C5700402257 /* Main.storyboard */,
+				4C1D0E9621B23C5700402257 /* GameViewController.swift */,
+				4C99C7162204471F00896E82 /* PlayAgainViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4C99C725220595E100896E82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C41A42D21B9B717003B0A84 /* Quiz.swift */,
+				4C24489121BF41C600B05645 /* QuizTimer.swift */,
+				4CED981A21B3CD2300D59DDC /* Question.swift */,
+				4CED981821B3B83000D59DDC /* Event.swift */,
+				4C215D4021C1C1400037164B /* Events.plist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C99C7262205960000896E82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C859AA72202B7FB00C667E5 /* EventView.swift */,
+				4C859AA92202BB5E00C667E5 /* ReorderingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C99C7272205961000896E82 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4C99C71E22044EA100896E82 /* Sound.swift */,
+				4C99C71C22044E8D00896E82 /* GameSound.swift */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

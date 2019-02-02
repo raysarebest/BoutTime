@@ -10,16 +10,14 @@ import UIKit
 import SafariServices
 
 class GameViewController: UIViewController, QuizDelegate{
-    var trivia: Quiz?{
-        didSet{
-            trivia?.delegate = self
-        }
-    }
+
+    // MARK: - Appearance
+
     override var preferredStatusBarStyle: UIStatusBarStyle{
-        get{
-            return .lightContent
-        }
+        return .lightContent
     }
+
+    // MARK: - Referencing Outlets
 
     @IBOutlet weak var countdownLabel: UILabel!
     @IBOutlet weak var nextRoundButton: UIButton!
@@ -27,15 +25,15 @@ class GameViewController: UIViewController, QuizDelegate{
     @IBOutlet weak var eventsStackView: UIStackView!
     @IBOutlet var reorderingButtons: [ReorderingButton]!
     var eventViews: [EventView]{
-        get{
-            guard let views = eventsStackView.arrangedSubviews as? [EventView] else{
-                fatalError("Not every arranged subview is an EventView. Investigate in Interface Builder")
-            }
-            return views
+        guard let views = eventsStackView.arrangedSubviews as? [EventView] else{
+            fatalError("Not every arranged subview is an EventView. Investigate in Interface Builder")
         }
+        return views
     }
 
-    override func viewWillAppear(_ animated: Bool) -> Void{
+    // MARK: - Lifecycle Management
+
+    override func viewWillAppear(_ animated: Bool){
         super.viewWillAppear(animated)
         if trivia == nil{
             trivia = Quiz()
@@ -43,32 +41,22 @@ class GameViewController: UIViewController, QuizDelegate{
         }
     }
 
-    override func viewDidAppear(_ animated: Bool) -> Void{
+    override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
         if let quiz = trivia, let question = quiz.currentQuestion, let first = quiz.questions.first, question == first{
             quiz.startTimer()
         }
     }
 
-    @IBAction func reorder(_ sender: ReorderingButton) -> Void{
-        trivia?.currentQuestion?.reorder(index: sender.index, direction: sender.reorderDirection)
-        layoutEventsForCurrentQuestion()
-    }
+    // MARK: - Quiz Management
 
-    func layout(events: [Event]) -> Void{
-        for (eventView, event) in zip(eventViews, events){
-            eventView.eventLabel.text = event.title
+    var trivia: Quiz?{
+        didSet{
+            trivia?.delegate = self
         }
     }
 
-    func layoutEventsForCurrentQuestion() -> Void{
-        guard let question = trivia?.currentQuestion else{
-            return
-        }
-        layout(events: question.events)
-    }
-
-    @IBAction func nextQuestion() -> Void{
+    @IBAction func nextQuestion(){
         if trivia?.currentQuestion != nil{
             layoutNextQuestion()
             trivia?.startTimer()
@@ -81,7 +69,47 @@ class GameViewController: UIViewController, QuizDelegate{
         }
     }
 
-    func layoutNextQuestion() -> Void{
+    @IBAction func reorder(_ sender: ReorderingButton){
+        trivia?.currentQuestion?.reorder(index: sender.index, direction: sender.reorderDirection)
+        layoutEventsForCurrentQuestion()
+    }
+
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?){
+        guard motion == .motionShake, let quiz = trivia, let question = quiz.currentQuestion else{
+            return
+        }
+
+        let correctOrder = question.events.sorted()
+        guard let isCorrect = try? quiz.answerCurrentQuestion() else{
+            return // This should realistically never happen
+        }
+        layoutForAnsweredQuestion(isCorrect: isCorrect, correctEventOrder: correctOrder)
+    }
+
+    func timerDidTick(for question: Question, remainingSeconds: TimeInterval, quiz: Quiz){
+        updateTimer(remainingSeconds: remainingSeconds)
+    }
+
+    func timerDidExpire(for question: Question, correctOrder: [Event], quiz: Quiz){
+        layoutForAnsweredQuestion(isCorrect: question.isOrdered)
+    }
+
+    // MARK: - Layout Helpers
+
+    func layout(events: [Event]){
+        for (eventView, event) in zip(eventViews, events){
+            eventView.eventLabel.text = event.title
+        }
+    }
+
+    func layoutEventsForCurrentQuestion(){
+        guard let question = trivia?.currentQuestion else{
+            return
+        }
+        layout(events: question.events)
+    }
+
+    func layoutNextQuestion(){
         guard let quiz = trivia else{
             return
         }
@@ -106,7 +134,7 @@ class GameViewController: UIViewController, QuizDelegate{
         }
     }
 
-    func layoutForAnsweredQuestion(isCorrect: Bool, correctEventOrder: [Event] = []) -> Void{
+    func layoutForAnsweredQuestion(isCorrect: Bool, correctEventOrder: [Event] = []){
         if !isCorrect{
             layout(events: correctEventOrder)
             GameSound.incorrectAnswer.play()
@@ -128,35 +156,17 @@ class GameViewController: UIViewController, QuizDelegate{
         infoLabel.text = "Tap events to learn more"
     }
 
-    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) -> Void{
-        guard motion == .motionShake, let quiz = trivia, let question = quiz.currentQuestion else{
-            return
-        }
-
-        let correctOrder = question.events.sorted()
-        guard let isCorrect = try? quiz.answerCurrentQuestion() else{
-            return // This should realistically never happen
-        }
-        layoutForAnsweredQuestion(isCorrect: isCorrect, correctEventOrder: correctOrder)
-    }
-
-    func updateTimer(remainingSeconds: TimeInterval) -> Void{
+    func updateTimer(remainingSeconds: TimeInterval){
         let formatter = DateComponentsFormatter()
         formatter.allowedUnits = [.minute, .second]
         formatter.zeroFormattingBehavior = .pad
         countdownLabel.text = formatter.string(from: remainingSeconds)
     }
 
-    func timerDidTick(for question: Question, remainingSeconds: TimeInterval, quiz: Quiz) -> Void{
-        updateTimer(remainingSeconds: remainingSeconds)
-    }
+    // MARK: - More Info Presentation
 
-    func timerDidExpire(for question: Question, correctOrder: [Event], quiz: Quiz) {
-        layoutForAnsweredQuestion(isCorrect: question.isOrdered)
-    }
-
-    @objc func presentInfoForEventViewTap(_ sender: UITapGestureRecognizer) -> Void{
-        guard let question = trivia?.lastQuestion, let tapped = sender.view, let index = eventsStackView.arrangedSubviews.firstIndex(of: tapped) else{
+    @objc func presentInfoForEventViewTap(_ sender: UITapGestureRecognizer){
+        guard let question = trivia?.previousQuestion, let tapped = sender.view, let index = eventsStackView.arrangedSubviews.firstIndex(of: tapped) else{
             return // This should realistically never happen
         }
         let browser = SFSafariViewController(url: question.events.sorted()[index].infoLink)

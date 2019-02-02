@@ -9,6 +9,9 @@
 import UIKit
 
 class PlayAgainViewController: UIViewController{
+
+    // MARK: - Properties
+
     @IBOutlet weak var scoreLabel: UILabel?
     var score = 0{
         didSet{
@@ -21,20 +24,28 @@ class PlayAgainViewController: UIViewController{
         }
     }
 
+    // MARK: - Actions
+
+    @IBAction func playAgain(){
+        dismiss(animated: false, completion: nil)
+    }
+
+    // MARK: - Appearance
+
     override var preferredStatusBarStyle: UIStatusBarStyle{
         get{
             return .lightContent
         }
     }
 
-    @IBAction func playAgain() -> Void{
-        dismiss(animated: false, completion: nil)
-    }
+    // MARK: - Lifecycle Management
 
-    override func viewWillAppear(_ animated: Bool) -> Void{
+    override func viewWillAppear(_ animated: Bool){
         super.viewWillAppear(animated)
         displayScore()
     }
+
+    // MARK: - Helpers
 
     private func displayScore() -> Void{
         if let label = scoreLabel{

@@ -32,7 +32,7 @@ class QuizTimer{ // I wanna subclass `Timer` here instead of maintain my own int
 
     // MARK: - Countdown Management
 
-    func stop() -> Void{
+    func stop(){
         shouldStop = true
         running = false
     }

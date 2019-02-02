@@ -18,15 +18,17 @@ struct Question: Equatable{
         }
     }
 
+    // MARK: - Correctness Checking
+
     var isOrdered: Bool{
-        get{
             return isOrdered(events: events)
-        }
     }
 
     func isOrdered(events local: [Event]) -> Bool{
         return local == events.sorted()
     }
+
+    // MARK: - Initialization
 
     init<Collection: Sequence>(events: Collection) where Collection.Element == Event{
         update(events: Set(events))
@@ -36,11 +38,13 @@ struct Question: Equatable{
         update(events: events)
     }
 
-    private mutating func update(events: Set<Event>) -> Void{
+    private mutating func update(events: Set<Event>){
         self.events = Array(events).shuffled()
     }
 
-    mutating func reorder(index: Int, direction: ReorderDirection) -> Void{
+    // MARK: - Event Reordering
+
+    mutating func reorder(index: Int, direction: ReorderDirection){
         func isWithinValidRange(_ possibleIndex: Int) -> Bool{
             return 0..<events.count ~= index
         }

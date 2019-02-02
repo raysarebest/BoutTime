@@ -21,9 +21,7 @@ class Sound: Playable{
 
     private let player: AVAudioPlayer
     var duration: TimeInterval{
-        get{
-            return player.duration
-        }
+        return player.duration
     }
 
     // MARK: - Initializers
@@ -38,11 +36,11 @@ class Sound: Playable{
 
     // MARK: - Playable Conformance
 
-    func prepare() -> Void{
+    func prepare(){
         player.prepareToPlay()
     }
 
-    func play() -> Void{
+    func play(){
         player.play()
     }
 }

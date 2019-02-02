@@ -20,7 +20,7 @@ In terms of overall difficulty, this app is roughly the same as the quiz app you
 - [x] Create a countdown timer to give users 60 seconds to correctly order the events. When the timer expires, the events orders are checked for correctness.
 - [x] If a user completes the ordering in less than 60 secsonds, they should be able to shake the device in order to get the order checked immediately.
 - [x] Create logic such that after 6 rounds of play the game concludes and a total score is displayed.
-- [ ] Before you submit your project for review, make sure you can check off all of the items on the [Student Project Submission Checklist](http://treehouse-techdegree.s3.amazonaws.com/Student-Project-Submission-Checklist.pdf). The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!
+- [x] Before you submit your project for review, make sure you can check off all of the items on the [Student Project Submission Checklist](http://treehouse-techdegree.s3.amazonaws.com/Student-Project-Submission-Checklist.pdf). The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!
 - [x] Don’t forget to revisit the courses you’ve completed as needed and never hesitate to reach out to the Treehouse Community.
 
 #### Extra credit

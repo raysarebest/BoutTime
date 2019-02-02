@@ -19,27 +19,23 @@ enum GameSound: String, Hashable, Playable{
     // MARK: - Helper Properties
 
     private var fileType: AVFileType{
-        get{
-            return .wav
-        }
+        return .wav
     }
 
     private var loaded: Sound?{
-        get{
-            if let preloaded = loadedGameSounds[self]{
-                return preloaded
+        if let preloaded = loadedGameSounds[self]{
+            return preloaded
+        }
+        else{
+            guard let asset = NSDataAsset(name: "Sounds/" + rawValue.trimmingCharacters(in: .whitespacesAndNewlines)) else{
+                fatalError("Sound \"\(rawValue)\" not included in bundle")
+            }
+            if let new = try? Sound(data: asset.data, type: fileType){
+                loadedGameSounds[self] = new
+                return new
             }
             else{
-                guard let asset = NSDataAsset(name: "Sounds/" + rawValue.trimmingCharacters(in: .whitespacesAndNewlines)) else{
-                    fatalError("Sound \"\(rawValue)\" not included in bundle")
-                }
-                if let new = try? Sound(data: asset.data, type: fileType){
-                    loadedGameSounds[self] = new
-                    return new
-                }
-                else{
-                    return nil
-                }
+                return nil
             }
         }
     }
@@ -47,16 +43,14 @@ enum GameSound: String, Hashable, Playable{
     // MARK: - Playable Conformance
 
     var duration: TimeInterval{
-        get{
-            return loaded?.duration ?? Double.signalingNaN
-        }
+        return loaded?.duration ?? Double.signalingNaN
     }
 
-    func prepare() -> Void{
+    func prepare(){
         loaded?.prepare()
     }
 
-    func play() -> Void{
+    func play(){
         loaded?.play()
     }
 }
@@ -67,7 +61,7 @@ private var loadedGameSounds = [GameSound: Sound]()
 
 import UIKit // I feel bad about doing this here, but it's better than exposing a public API to the internal cache imo, since I don't implement this function anywhere else
 extension AppDelegate{
-    func applicationDidReceiveMemoryWarning(_ application: UIApplication) -> Void{
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication){
         loadedGameSounds.removeAll()
     }
 }

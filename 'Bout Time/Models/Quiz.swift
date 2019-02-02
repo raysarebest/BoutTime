@@ -17,6 +17,9 @@ protocol QuizDelegate: class{
 }
 
 class Quiz{
+
+    // MARK:  General Default Configuration
+
     private static let minQuestionEventCount = 4
     private static var allEvents: [Event] = {
         if let cache = eventCache{
@@ -45,6 +48,11 @@ class Quiz{
             }
         }
     }()
+
+    var secondsPerQuestion: TimeInterval = 60
+
+    // MARK: - Question Management
+    
     private(set) var questions = [Question]()
     private var currentQuestionIndex = 0
     var currentQuestion: Question?{
@@ -60,7 +68,7 @@ class Quiz{
             }
         }
     }
-    var lastQuestion: Question?{
+    var previousQuestion: Question?{
         if case 1...questions.count = currentQuestionIndex{
             return questions[currentQuestionIndex - 1]
         }
@@ -68,25 +76,13 @@ class Quiz{
             return nil
         }
     }
-    weak var delegate: QuizDelegate?
-    private var timer: QuizTimer?
-    var secondsPerQuestion: TimeInterval = 60
+
     private(set) var score = 0
 
-    init(questionCount: UInt = 6){
-        for _ in 1...questionCount{
-            questions.append(Question(events: Quiz.allEvents.shuffled()[0..<Quiz.minQuestionEventCount]))
-        }
-        NotificationCenter.default.addObserver(self, selector: #selector(clearEventCache), name: UIApplication.didReceiveMemoryWarningNotification, object: nil)
-    }
+    // MARK: - Timing
 
-    deinit{
-        NotificationCenter.default.removeObserver(self)
-    }
-
-    convenience init<Integer: BinaryInteger>(questionCount: Integer){
-        self.init(questionCount: UInt(questionCount.absoluteValue))
-    }
+    weak var delegate: QuizDelegate?
+    private var timer: QuizTimer?
 
     enum Error: Swift.Error{
         case quizComplete
@@ -110,7 +106,7 @@ class Quiz{
         return question.isOrdered
     }
 
-    func startTimer() -> Void{
+    func startTimer(){
         timer = QuizTimer(seconds: secondsPerQuestion, countdownHandler: {(remainingSeconds: TimeInterval) in
             guard let question = self.currentQuestion else{
                 self.timer?.stop()
@@ -127,12 +123,29 @@ class Quiz{
         })
     }
 
-    private func stopTimer() -> Void{
+    private func stopTimer(){
         timer?.stop()
         timer = nil
     }
 
-    @objc private func clearEventCache() -> Void{
+    // MARK: - Lifecycle Management
+
+    init(questionCount: UInt = 6){
+        for _ in 1...questionCount{
+            questions.append(Question(events: Quiz.allEvents.shuffled()[0..<Quiz.minQuestionEventCount]))
+        }
+        NotificationCenter.default.addObserver(self, selector: #selector(clearEventCache), name: UIApplication.didReceiveMemoryWarningNotification, object: nil)
+    }
+
+    convenience init<Integer: BinaryInteger>(questionCount: Integer){
+        self.init(questionCount: UInt(questionCount.absoluteValue))
+    }
+
+    deinit{
+        NotificationCenter.default.removeObserver(self)
+    }
+
+    @objc private func clearEventCache(){
         eventCache = nil
     }
 }
